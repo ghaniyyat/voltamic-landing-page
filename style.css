@@ -4,16 +4,16 @@
               
               @font-face {
                   font-family: Mada;
-                  src: url(./fonts/Mada/Mada-Bold.ttf);
+                  src: url(./assets/Mada-Bold.ttf);
                   font-style: normal;
                   font-weight: 700;
               }
               
               @font-face {
                   font-family: Mada;
-                  src: url(./fonts/Mada/Mada-Regular.ttf);
+                  src: url(./assets/Mada-Regular.ttf);
                   font-style: normal;
-                  font-weight: normal;
+                  font-weight: 400;
               }
               
               body {
@@ -35,9 +35,9 @@
                 height: 3%;*/
               }
               /* nav {
-             justify-content: space-between;
-            align-items: center;
-             } */
+                justify-content: space-between;
+                align-items: center;
+                } */
               
               nav ul {
                   list-style-type: none;
@@ -111,8 +111,8 @@
                   /* font-family: 'Mada', sans-serif; */
               }
               /* .landing-pg h1 {
-            margin:
-        } */
+                    margin:
+                } */
               
               h2 {
                   font-weight: 700;
@@ -147,7 +147,7 @@
               }
               
               .landing-pg {
-                  background: url(../images/bg-img.jpg);
+                  background: url(./assets/bg-img.jpg);
                   background-size: cover;
                   height: 100%;
                   position: relative;
@@ -169,7 +169,7 @@
               .landing-pg::after {
                   content: "";
                   position: absolute;
-                  background-image: url(../images/dotimg.png);
+                  background-image: url(./assets/dotimg.png);
                   opacity: 0.5;
                   top: 0;
                   right: 0;
